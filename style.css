@@ -1,0 +1,75 @@
+h1 {
+    color: aqua;
+    margin-left: 30px;
+}
+
+/**{
+    border: solid;
+}*/
+
+.header{
+    background-color: black;
+    display: flex ;
+    justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.site_description{
+    text-align: center;
+}
+
+body{
+    background-color: #FA8072;
+}
+
+a:link{
+    color: blue;    
+}
+
+a:visited{
+    color: white;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+.item{
+
+    position:relative;
+    
+}
+
+.item p{
+
+    position: absolute;
+
+    top : 50%;
+
+    left : 50%;
+
+    transform: translate(-50%,-50%);
+
+    opacity: 0;
+
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity:0.33;
+}
+
